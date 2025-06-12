@@ -1,0 +1,42 @@
+.statusTag,
+.priorityTag {
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.statusActive {
+  background-color: var(
+    --color-accent-green,
+    #28a745
+  ); /* Fallback to green if not defined in your Tailwind config */
+  color: white; /* Assuming white foreground for green */
+}
+
+.statusArchived {
+  background-color: var(--color-muted);
+  color: var(--color-muted-foreground);
+}
+
+.priorityHigh {
+  background-color: var(--color-destructive);
+  color: white; /* Assuming white foreground for destructive */
+}
+
+.priorityMedium {
+  background-color: var(
+    --color-accent
+  ); /* Re-using accent, or define a specific orange-like color */
+  color: var(--color-accent-foreground);
+}
+
+.priorityLow {
+  background-color: var(
+    --color-chart-1
+  ); /* Re-using chart-1, or define a specific low-priority color */
+  color: var(
+    --color-primary-foreground
+  ); /* Assuming this chart color needs a light foreground */
+}

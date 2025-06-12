@@ -1,0 +1,7 @@
+.roleTag {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.75em;
+  font-weight: normal;
+  white-space: nowrap; /* Prevents wrapping */
+}

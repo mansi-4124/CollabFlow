@@ -1,0 +1,39 @@
+.tagBase {
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-weight: normal;
+  display: inline-block;
+  max-width: fit-content;
+}
+
+.statusInProgress {
+  background-color: var(
+    --color-accent
+  ); /* Use a more appropriate color from your palette, perhaps accent or a custom one */
+  color: var(--color-accent-foreground);
+}
+
+.statusCompleted {
+  background-color: var(--color-chart-2); /* Example mapping to a chart color */
+  color: white; /* Adjust based on your foreground for chart colors */
+}
+
+.statusOnHold {
+  background-color: var(--color-muted);
+  color: var(--color-muted-foreground);
+}
+
+.priorityHigh {
+  color: var(--color-destructive);
+}
+
+.priorityMedium {
+  color: var(
+    --color-accent
+  ); /* You might want a distinct "orange-like" color here */
+}
+
+.priorityLow {
+  color: var(--color-chart-1); /* Example mapping to a chart color */
+}
