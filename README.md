@@ -58,7 +58,7 @@ A modern **Kanban-based project management web application** inspired by tools l
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/collabflow.git
+git clone https://github.com/mansi-4124/collabflow.git
 cd collabflow
 ```
 ### 2. Setup Backend
